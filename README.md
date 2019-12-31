@@ -32,7 +32,8 @@ There are a few extra bits too:
 
 * ```[[My Page]]``` links to a page on the Espruino website
 * ```[[http://youtu.be/VIDEOID]]``` puts a video on the page
-* ```![Image Title](MyFilename/foo.png)``` Adds an image. Images should be in a directory named after the filename of the file referencing them (or the same directory as the file referencing them)
+* ```![Image Title](MyFilename/foo.png)[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjromy5%2FEspruinoDocs.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjromy5%2FEspruinoDocs?ref=badge_shield)
+``` Adds an image. Images should be in a directory named after the filename of the file referencing them (or the same directory as the file referencing them)
 * The first image in the file (or a file named `PageName.thumb.jpg/png`) is resized and used as the thumbnail. If there's no image on the page at all it's added top-right.
 
 It then converts the Markdown to HTML and shoves it on the Espruino website. Lovely!
@@ -197,3 +198,7 @@ npm run eslintmodules
 # Lint all js files in boards folder
 npm run eslintboards
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjromy5%2FEspruinoDocs.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjromy5%2FEspruinoDocs?ref=badge_large)
